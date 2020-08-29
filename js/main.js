@@ -434,6 +434,7 @@ var onePageNavigation = function() {
 
 
 // load ajax page
+
 var portfolioItemClick = function() {
 	$('.ajax-load-page').on('click', function(e) {
 		
@@ -477,11 +478,13 @@ var portfolioItemClick = function() {
 	});
 };
 
+
 $(document).ajaxStop(function(){
 	setTimeout(function(){
 		TweenMax.to('.loader-portfolio-wrap', 1, { top: '0px', autoAlpha: 0, ease: Power4.easeOut });	
 	}, 400);
 });
+
 
 var loadPortfolioSinglePage = function(id, href) {
 	$.ajax({
@@ -519,6 +522,7 @@ var loadPortfolioSinglePage = function(id, href) {
 	return false;
 
 };
+
 
 var jarallaxPlugin = function() {
 	$('.jarallax').jarallax({

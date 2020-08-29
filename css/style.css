@@ -400,6 +400,7 @@ a, a:hover {
   width: 100%;
   background: #fff;
   border-radius: 0px;
+  border-color: rgba(0, 0, 0, 0)
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
