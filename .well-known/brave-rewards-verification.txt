@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: asowneryt.github.io
+Token: 96f899025c042a1b0f252ec84916a7f45641758e398d7a86c25541f833c762d2
